@@ -56,13 +56,14 @@ const Chats = () => {
   return (
     <div>
       <Header />
-
-      <ChatEngine
-        height="100vh"
-        projectID={process.env.REACT_APP_CHAT_ENGINE_ID}
-        userName={user?.email}
-        userSecret={user?.uid}
-      />
+      <div>
+        <ChatEngine
+          height="82vh"
+          projectID={process.env.REACT_APP_CHAT_ENGINE_ID}
+          userName={user?.email}
+          userSecret={user?.uid}
+        />
+      </div>
     </div>
   );
 };

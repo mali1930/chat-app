@@ -10,7 +10,7 @@ const Header = () => {
   const nav = useNavigate();
   return (
     <>
-      <div className="bg-blue-900  text-white flex-1 w-full flex justify-between items-center py-5 px-10">
+      <div className="bg-blue-900  text-white flex-1 w-full flex justify-between items-center py-5 px-4 md:px-10">
         <div className="text-2xl font-bold">
           <p>Chat App</p>
         </div>
